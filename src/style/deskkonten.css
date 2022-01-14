@@ -1,0 +1,29 @@
+.desk-konten {
+    margin-top: 120px;
+}
+
+.ini-p1 {
+    margin-top: 50px;
+        max-width: 500px;
+        width: 200px;
+        background: #37D0E9;
+        margin: 20px auto;
+        padding: 5px;
+        border-radius: 10px;    
+}
+
+.ini-img {
+    width: 700px;
+    height: 500px;
+}
+
+.pembungkus {
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-left: 255px;
+    padding-bottom: 100px;
+}
+
+.p-bot {
+    margin-bottom: 100px;
+}

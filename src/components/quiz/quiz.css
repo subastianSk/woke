@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-start-container {
+    width: 480px;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0, 3s;
+    animation: ease-in;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #5EBFCF;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Inter' !important;
+}
+
+.card-start-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.card-start {
+    justify-content: center;
+    display: flex;
+}
+
+
+.card-desc {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: justify;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-card button {
+    padding: 0.5rem;
+    background-color: #FFCD4F;
+    border: none;
+    transition: 0.2s;
+    margin-top: 0.5em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-card button:hover {
+    background-color: lightgray;
+}
+
+.quiz-con {
+    text-align: center;
+    padding: 2em;
+    background-color: #5EBFCF;
+}
+
+.quiz-title h2 {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.form-card {
+    margin: auto;
+    border: none;
+    padding: 2em;
+    height: auto;
+    width: 996px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    box-shadow: 0px 0px 15px -5px;
+    background-color: whitesmoke;
+    font-family: 'inter' !important;
+    font-size: 14px;
+    margin-bottom: 3em;
+    .form-card {
+    margin: auto;
+    border: none;
+    padding: 2em;
+    height: auto;
+    width: 1020px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    box-shadow: 0px 0px 15px -5px;
+    background-color: whitesmoke;
+    font-family: 'inter' !important;
+}
+}
+
+.perintah {
+    text-align: left;
+    font-weight: bold;
+    font: 'Inter' !important;
+}
+
+.card-soal {
+    margin-top: 1em;
+    text-align: left;
+    justify-content: left;
+    border: none;
+    display: flex;
+    font-family: 'Inter' !important;
+}
+
+.pilihan-jawaban {
+    /* background-color: gray; */
+    background-color: transparent;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+}
+
+.btn-submit {
+    margin-top:2em;
+
+}
+
+.btn-result {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.card-result {
+    width: 520px;
+    height: 486px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0, 3s;
+    animation: ease-in;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: #5EBFCF;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'inter' !important;
+}
+
+.result-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.table-result td {
+    border: none;
+    padding: 8px 15px;
+    color: #000000;
+    text-align: left;
+}
+
+.result-desc {
+    text-align: justify;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.btn-layanan, .btn-konten {
+    background-color: #FFCD4F;
+    padding: 0.5em;
+    border-radius: 8px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+    .card-result {
+        height: 560px;
+        width: 380px;
+    }
+
+    .form-card {
+        height: fit-content;
+        width: 420px;
+        background-color: lightcyan;
+        padding: 16px;
+    }
+
+    .quiz-con {
+        height: auto;
+        width: fit-content;
+    }
+
+    .pilihan-jawaban {
+        background-color: transparent;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 8px;
+    }
+
+    .quiz-card {
+        margin-left: auto;
+        height: fit-content;
+        width: 420px;
+    }
+
+    .table-result {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .card-start-container {
+        height: 280px;
+        width: 380px;
+    }
+
+
+
+}

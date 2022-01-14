@@ -1,0 +1,28 @@
+.bayar {
+    margin: 150px -20px;
+}
+
+.barcode {
+    width : 250px;
+    height : 250px;
+}
+
+.afterpic{
+    width : 500px;
+    height : 500px;
+    margin-top : -70px;
+}
+
+.linkbayar {
+    text-decoration : none; 
+}
+
+@media (max-width : 600px) {
+    .bayar{
+        margin : 140px -175px ;
+        width : 120%;
+    }
+    .afterpic {
+        display : none
+    }
+}
